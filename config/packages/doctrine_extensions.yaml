@@ -1,0 +1,5 @@
+# Pour l'ajout auto du timestamp sur les colonnes created_at et updated_at en bdd
+stof_doctrine_extensions:
+    orm:
+        default:
+            timestampable: true
